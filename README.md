@@ -1,12 +1,14 @@
-# Shabble's Irssi Scripts
+# SVAKSHA's fork of Shabble's Irssi Scripts
 
-This repository contains a collection of scripts and things I have written or
-adapted from others to improve my (and maybe your!) Irssi using experience.
+This repo contains a collection of Perl scripts and stuff forked from Shabble's 
+Irssi Scripts. 
+
+
+## Copyright and License
+Copyrights belong to the respective authors who have licenced each Perl script file.
+
 
 ## What's In Here
-
-I never thought I'd end up writing so many scripts, so rather than give them
-each their own repository as might be sensible, they're all stuffed in here.
 
 The following is a brief list of the interesting scripts, and why you might want
 to use them.
@@ -205,4 +207,4 @@ You know, [that](https://github.com/shabble/irssi-docs/wiki) one.
 
 * Commit!
 
-   
+
