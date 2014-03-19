@@ -1,0 +1,93 @@
+2012-11-05 .76
+    * New nick_lookup_h command that takes a nick and shows associated
+      hosts.
+        - IsaacG
+
+2012-03-27 .75
+    * Add database indices to speed up read accesses.
+        - IsaacG
+
+2011-09-15 .74
+    * Merged in the testing branch to get two DB handles to avoid the parent
+      and child process from conflicting by using the same handle.
+        - IsaacG
+
+2011-08-12 .73
+    * Sort nicknames show in case-insensitive alphabetical order by VinzNL.
+        - IsaacG
+
+2011-08-12 .72
+    * Added _ignore_guest_hosts and _guest_host_regex. Allows you to ignore a
+      host, such as "webchat", "mibbit" or "gmail.com" (for Bitlbee users).
+      Code by VinzNL.
+        - IsaacG
+
+2011-08-12 .71
+    * Fixed the default stalker_guest_nick_regex setting; should be a pattern 
+      and not include the /'s. Patch by VinzNL.
+        - IsaacG
+
+2011-08-11 .70
+    * Changed add_record to do asynchronous DB access. This adds a pidwait trap,
+      and functions record_added, async_add and db_add_record (which does what 
+      add_record used to do). This prevents the script from locking up irssi when
+      there are a lot of records to add, eg when joining a large channel or when
+      connecting to a network. The forking code was stolen from Timo 'cras' 
+      Sirainen (http://scripts.irssi.org/html/dns.pl). Been working for me for 6
+      months so I hope it's solid code.
+        - IsaacG
+
+
+2011-08-12 .62
+    * Added stalker_normalize_nick option, default on.
+      When set, nicknames which contain any of '-_~^`' will not
+      be shown if a version without those exist.  For example
+      results like "symkat`, symkat, sym`kat" will just be "symkat",
+      while results like "`foo bar bar`" would be "`foo bar".
+      When turned off, acts as before, listing all nicknames.
+      Inspired by VinzNL's branch on GitHub.
+        - SymKat
+
+2011-08-10 .60
+    * Added add_timestamp_column. This adds a "added" timestamp column to the
+      database which records when a record was added.
+        - IsaacG
+
+2011-01-16 .50
+    * Added stalker_stalk_on_join option.  Turning this on will show previous
+    nicknames when a user joins "foo foo@bar has joined #perl ( foo, bar, blee
+    )"
+    Thanks to an anonymous submitter for the patch and suggestion.
+
+2010-10-09
+    * Added channel sync event handling to replace who on join
+    * Removed hide_who option (no longer needed)
+    * Thanks to Wouter Coekaerts for the suggestion!
+2010-10-06
+    * Added patch by Mantas Mikulėnas "Make the default paths relative 
+      to Irssi home directory" to correct issue with paths when starting
+      stalker.pl outside of ~/
+
+2010-10-06
+    * Released to GitHub 
+
+2009-11-29 R2
+    * Rolled version back and deleted changes from 2009-11-29 R1.
+
+2009-11-29 R1
+    * Modified records to output nick(R=<Level>) to mark recursion level.
+
+2009-01-01
+    * Fixed bug where script crashes due do lack of hostname info.
+    * Added debug logging support.
+
+2008-11-27
+    * Automatic database creation added.
+    * /nick_lookup, /host_lookup added
+
+2008-11-01
+    * New search method to support recursive searched added.
+    * New Options Added: _max_recursion, _recursive_search, _guest_nick_regex, _ignore_guest_nicks
+
+2008-10-25
+    * Inital Creation
