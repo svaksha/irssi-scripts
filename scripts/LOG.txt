@@ -1,0 +1,66 @@
+LOG.txt
+
+drwxr-xr-x 3 svaksha svaksha  4096 Aug 10  2013 .
+drwx------ 3 svaksha svaksha  4096 Feb 28 08:54 ..
+-rw-r--r-- 1 svaksha svaksha   729 Aug  6  2011 accountname.pl
+-rw-r--r-- 1 svaksha svaksha  2229 Aug  8  2011 auto_whois.pl
+-rw-r--r-- 1 svaksha svaksha  1666 Jan 29  2010 autorejoin.pl
+drwxr-xr-x 2 svaksha svaksha  4096 Feb 28 09:52 autorun
+-rw-r--r-- 1 svaksha svaksha   981 Feb  5  2010 autowrap.pl
+-rw-r--r-- 1 svaksha svaksha  4949 Aug 10  2013 away.pl
+-rw-r--r-- 1 svaksha svaksha  7439 Feb 14  2010 cap_sasl.pl
+-rw-r--r-- 1 svaksha svaksha  3612 Aug  6  2011 chanshare.pl
+-rw-r--r-- 1 svaksha svaksha  2677 Aug  6  2011 chansort.pl
+-rw-r--r-- 1 svaksha svaksha  1500 Aug  6  2011 clones.pl
+-rw------- 1 svaksha svaksha  4952 Feb 13  2010 identify-md5.pl
+-rw-r--r-- 1 svaksha svaksha  1796 Dec 14  2010 ignoreoc.pl
+-rw-r--r-- 1 svaksha svaksha  2620 Dec 14  2010 intjoin.pl
+-rw-r--r-- 1 svaksha svaksha   853 Feb  5  2010 ircops.pl
+-rw-r--r-- 1 svaksha svaksha  3920 Feb  5  2010 nickcolor.pl
+-rw-r--r-- 1 svaksha svaksha 18718 Aug  5  2011 nickserv.pl
+-rw-r--r-- 1 svaksha svaksha  2239 Aug 10  2013 notonline.pl
+-rw-r--r-- 1 svaksha svaksha 36473 Feb  5  2010 scriptassist.pl
+-rw-r--r-- 1 svaksha svaksha 15233 Sep 11  2011 securemsg.pl
+-rw-r--r-- 1 svaksha svaksha 14017 Oct  7  2011 whitelist.pl
+-rw-r--r-- 1 svaksha svaksha  3834 Aug  8  2011 window_switcher.pl
+-rw-r--r-- 1 svaksha svaksha  1467 Dec 14  2010 xlist.pl
+
+
+
+2014-02-28:CET:20:11:25 >> Scriptinfo: Loaded nickserv.pl version 1.8 by Geert Hauwaerts.
+2014-02-28:CET:20:11:25 defined(%hash) is deprecated at /home/svaksha/.irssi/scripts/autorun/scriptassist.pl line 96.
+2014-02-28:CET:20:11:25 
+2014-02-28:CET:20:11:25 I(Maybe you should just omit the defined()?)
+2014-02-28:CET:20:11:25 
+2014-02-28:CET:20:11:25 defined(%hash) is deprecated at /home/svaksha/.irssi/scripts/autorun/scriptassist.pl line 206.
+2014-02-28:CET:20:11:25 
+2014-02-28:CET:20:11:25 I(Maybe you should just omit the defined()?)
+2014-02-28:CET:20:11:25 
+2014-02-28:CET:20:11:25 defined(%hash) is deprecated at /home/svaksha/.irssi/scripts/autorun/scriptassist.pl line 206.
+2014-02-28:CET:20:11:25 
+2014-02-28:CET:20:11:25 I(Maybe you should just omit the defined()?)
+2014-02-28:CET:20:11:25 
+2014-02-28:CET:20:11:25 defined(%hash) is deprecated at /home/svaksha/.irssi/scripts/autorun/scriptassist.pl line 688.
+2014-02-28:CET:20:11:25 
+2014-02-28:CET:20:11:25 I(Maybe you should just omit the defined()?)
+2014-02-28:CET:20:11:25 
+2014-02-28:CET:20:11:25 defined(%hash) is deprecated at /home/svaksha/.irssi/scripts/autorun/scriptassist.pl line 689.
+2014-02-28:CET:20:11:25 
+2014-02-28:CET:20:11:25 I(Maybe you should just omit the defined()?)
+2014-02-28:CET:20:11:25 
+2014-02-28:CET:20:11:25 defined(%hash) is deprecated at /home/svaksha/.irssi/scripts/autorun/scriptassist.pl line 776.
+2014-02-28:CET:20:11:25 
+2014-02-28:CET:20:11:25 I(Maybe you should just omit the defined()?)
+2014-02-28:CET:20:11:25 
+2014-02-28:CET:20:11:25 defined(%hash) is deprecated at /home/svaksha/.irssi/scripts/autorun/scriptassist.pl line 856.
+2014-02-28:CET:20:11:25 
+2014-02-28:CET:20:11:25 I(Maybe you should just omit the defined()?)
+2014-02-28:CET:20:11:25 
+2014-02-28:CET:20:11:25 defined(%hash) is deprecated at /home/svaksha/.irssi/scripts/autorun/scriptassist.pl line 1089.
+2014-02-28:CET:20:11:25 
+2014-02-28:CET:20:11:25 I(Maybe you should just omit the defined()?)
+2014-02-28:CET:20:11:25 
+2014-02-28:CET:20:11:25 >> scriptassist 2003020803 loaded: /scriptassist help for help
+2014-02-28:CET:20:11:25 <--> xlist v1.00: Simply use /list as you always do
+2014-02-28:CET:20:11:25 -!- Irssi: Couldn't open /home/svaksha/.irssi/whitelist.conf for reading. Do you need to generate a config file with '/whitelist upgrade' ?
+
